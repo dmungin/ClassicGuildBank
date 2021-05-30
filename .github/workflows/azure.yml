@@ -50,5 +50,5 @@ jobs:
         with:
           app-name: 'classicguildbank'
           slot-name: 'production'
-          publish-profile: \${{ secrets.AzureAppService_PublishProfile_1234 }}
+          publish-profile: \${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EFA6D34176AB45979ADBD55289917859 }}
           package: .
