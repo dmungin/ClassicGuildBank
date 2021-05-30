@@ -71,7 +71,7 @@ export class RegisterUserComponent implements OnInit {
 
     this.userStore.registerUser(this.registerForm.value).subscribe({
       next: () =>{
-        this.successText = "An email has been sent to the address provided, you must confirm your account before logging in."
+        this.successText = "Please wait for the administrator to confirm your account before logging in."
         this.formSubmitted = true;
       }, 
       error: (errorResponse) => {
