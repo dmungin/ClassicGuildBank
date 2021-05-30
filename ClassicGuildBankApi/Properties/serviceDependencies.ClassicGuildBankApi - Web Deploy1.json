@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/classic-guild-bank-db-server/databases/ClassicGuildBankDb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:ClassicGuildBankDb",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
