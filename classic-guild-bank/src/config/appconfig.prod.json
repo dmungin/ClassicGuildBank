@@ -1,8 +1,8 @@
 { 
-  "api": "https://classicguildbank-apim.azure-api.net/api",
-  "client": "https://classicguildbank.com",
+  "api": "https://classicguildbankapi.azurewebsites.net/api",
+  "client": "https://classicguildbank.azurewebsites.net",
   "patreon": {
-    "oauth_redirect": "https://classicguildbank.com/patreon/callback",
+    "oauth_redirect": "https://classicguildbank.azurewebsites.net/patreon/callback",
     "client_id": "hmjgYD08W4nvMauZip0okmlof5C1bQWr1CfMCJ_pnccqtZobwBbDme4jSvyekSRh"
   },
   "wowhead": {
